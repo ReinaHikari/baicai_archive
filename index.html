@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>眞白かのん · 七年档案馆</title>
+<meta name="description" content="2019.04.30 – 2026.04.30｜VTuber 眞白かのん（白菜）七年活动档案。粉丝自发维护的纪念站。" />
+<link rel="canonical" href="https://baicai.duanzhi.cc/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="眞白花音 · 七年档案馆" />
+<meta property="og:title" content="眞白かのん · 七年档案馆" />
+<meta property="og:description" content="2019.04.30 – 2026.04.30｜VTuber 眞白かのん（白菜）七年活动档案。粉丝自发维护的纪念站。" />
+<meta property="og:url" content="https://baicai.duanzhi.cc/" />
+<meta property="og:locale" content="zh_CN" />
+<meta property="og:image" content="https://baicai.duanzhi.cc/assets/costumes/official_avatar.jpg" />
+<meta property="og:image:alt" content="眞白かのん 官方头像" />
+<meta name="twitter:card" content="summary" />
+<meta name="twitter:title" content="眞白かのん · 七年档案馆" />
+<meta name="twitter:description" content="2019.04.30 – 2026.04.30｜VTuber 眞白かのん（白菜）七年活动档案。粉丝自发维护的纪念站。" />
+<meta name="twitter:image" content="https://baicai.duanzhi.cc/assets/costumes/official_avatar.jpg" />
+<link rel="icon" type="image/jpeg" href="assets/costumes/official_avatar.jpg?v=1" />
+<link rel="shortcut icon" type="image/jpeg" href="assets/costumes/official_avatar.jpg?v=1" />
+<link rel="apple-touch-icon" href="assets/costumes/official_avatar.jpg?v=1" />
+<!-- 字体：CSS 文件本地化避免首屏被 jsdelivr render-blocking 阻塞，
+     CSS 内 @font-face 仍异步从 jsdelivr 拉 woff2（带 font-display: swap），
+     字体效果完全等同于此前直链方案 -->
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+<link href="assets/vendor/fonts/noto-sans-sc-400.css?v=1" rel="stylesheet">
+<link href="assets/vendor/fonts/klee-one-400.css?v=1" rel="stylesheet">
+<link href="assets/vendor/fonts/klee-one-600.css?v=1" rel="stylesheet">
+<link href="assets/vendor/fonts/lxgw-wenkai.css?v=1" rel="stylesheet">
+<link href="assets/vendor/fonts/jetbrains-mono-400.css?v=1" rel="stylesheet">
+<link rel="stylesheet" href="styles.css?v=46" />
+</head>
+<body>
+
+<div id="root"></div>
+
+<!-- Variant tokens (editable) -->
+<script>
+window.TWEAK_DEFAULTS = /*EDITMODE-BEGIN*/{
+  "variant": "A",
+  "showParticles": true,
+  "particleDensity": 20,
+  "bgmEnabled": false
+}/*EDITMODE-END*/;
+</script>
+
+<!-- React + 预编译 bundle：bundle.js 由 scripts/build-frontend.sh 离线 esbuild
+     编译，包含全部 17 个 JSX，按原顺序拼接。生产环境不再加载 babel-standalone
+     （3.14 MB）也不在浏览器内实时转译，首屏体积下降 ~36×。 -->
+<script src="assets/vendor/react.production.min.js?v=1831"></script>
+<script src="assets/vendor/react-dom.production.min.js?v=1831"></script>
+<script src="assets/dist/bundle.js?v=35"></script>
+
+</body>
+</html>
